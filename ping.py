@@ -1,3 +1,7 @@
+import os
+import sys
+
+
 def ping():
     print("\n")
     print("Ping")
