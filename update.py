@@ -5,7 +5,7 @@ import sys
 def update():
   print("\n")
   print("Update")
-  print("\")
+  print("\n")
   print("Die neueste Version ist die 1.1")
   print("Alsbald wird die Version 1.2 entwickelt")
   print("\n")
