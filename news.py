@@ -5,7 +5,7 @@ def news():
   print("UPDATE: Es wird bald eine 1.3 geben!")
   print("\n")
   print("Was wird neu sein?")
-  print("\")
+  print("\n")
   print("- Neue Apps für die App ExtraApps")
   print("- Whatsapp via Selenium wird verfügbar sein")
   print("- SecureBrowser (Apache) wird verfügbar sein")
