@@ -32,22 +32,22 @@ def update():
               print("\n")
               return 1
        def extra_apps_download(self):
-          url = "https://raw.githubusercontent.com/jp-the-dev/pythonproject/master" + self + ".py"
-          name = self + ".py"
-          urllib.request.urlretrieve(url, name)
-          url = "https://raw.githubusercontent.com/jp-the-dev/pythonproject/master/" + self + "-starter.py"
-          name = self + "-starter.py"
-          urllib.request.urlretrieve(url, name)
-          print("\n")
-          print("Bitte starte JannOS neu!")
-          print("\n")
-          sys.exit()
-       if int(check_ping()) == 0:
-          extra_apps_download(self)
-       elif int(check_ping()) == 1:
-          print("\n")
+            url = "https://raw.githubusercontent.com/jp-the-dev/pythonproject/master" + self + ".py"
+            name = self + ".py"
+            urllib.request.urlretrieve(url, name)
+            url = "https://raw.githubusercontent.com/jp-the-dev/pythonproject/master/" + self + "-starter.py"
+            name = self + "-starter.py"
+            urllib.request.urlretrieve(url, name)
+            print("\n")
+            print("Bitte starte JannOS neu!")
+            print("\n")
+            sys.exit()
+        if int(check_ping()) == 0:
+            extra_apps_download(self)
+        elif int(check_ping()) == 1:
+            print("\n")
     extra_apps("news")
-  
+    
   else:
     print()
 
