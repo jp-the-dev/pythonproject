@@ -8,14 +8,14 @@ def update():
   print("\n")
   print("Update")
   print("\n")
-  print("Die neueste Version ist die 1.1")
-  print("Alsbald wird die Version 1.2 entwickelt")
+  print("Die neueste Version ist die 1.2")
+  print("Alsbald wird die Version 1.3 entwickelt")
   print("\n")
   print("Stand: 08.03.2020")
   time.sleep(3)
   print("\n")
-  print("[1] News aktualisieren")
-  print("[ENTER] News beenden")
+  print("[1] Update aktualisieren")
+  print("[ENTER] Update beenden")
   eingabe = input("> ")
   if eingabe == "1":
       def extra_apps(self):
@@ -47,7 +47,7 @@ def update():
           extra_apps_download(self)
        elif int(check_ping()) == 1:
           print("\n")
-    extra_apps("news")
+    extra_apps("update")
   
   else:
     print()
