@@ -1,8 +1,12 @@
+import time
+import sys
+
+
 def news():
   print("\n")
   print("News")
   print("\n")
-  print("UPDATE: Es wird bald eine 1.3 geben!")
+  print("UPDATE: Es wird bald eine 1.2 - Tim geben!")
   print("\n")
   print("Was wird neu sein?")
   print("\n")
@@ -15,4 +19,4 @@ def news():
   print("Stand: 08.03.2020")
   print("Zum aktualisieren bitte neuinstallieren oder ab der 1.3")
   print("in der ExtraApp news aktualisieren auswählen")
-  time.sleep(2)
+  time.sleep(3)
