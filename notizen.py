@@ -43,9 +43,9 @@ def notizen():
         if zeile == "Linux":
             eingabe = input("Notizname: ")
             notiz_name = eingabe
-            os.system("rm " + notiz_name + ".txt")
+            os.system("rm " + notiz_name + ".notiz")
             print()
         elif zeile == "Windows":
             eingabe = input("Notizname: ")
             notiz_name = eingabe
-            os.system("del " + notiz_name + ".txt")
+            os.system("del " + notiz_name + ".notiz")
