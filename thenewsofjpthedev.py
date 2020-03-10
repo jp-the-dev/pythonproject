@@ -20,6 +20,7 @@ def thenewsofjpthedev():
     print("[2] Welche Computerviren sind bisher die gefährlichsten?     (Deutsch) - 09.03.2020")
     print("[3] Sind Hacker böse?                                        (Deutsch) - 10.03.2020")
     print("[4] TheNewsOfJPTheDev - Archiv                               (Deutsch)")
+    print("[5] TheNewsOfJPTheDev Aktualisieren")
     print("\n")
     print("Stand: 09.03.2020")
     print("\n")
@@ -99,6 +100,9 @@ def thenewsofjpthedev():
         print("ist noch leer, nächste Woche (16.03.2020 & 17.03.2020)")
         print("wird es mit vergangenen Nachrichten")
         print("aufgefüllt, bis später.")
+        print("\n")
+    elif int(eingabe) == 5:
+        print("\n")
         print("\n")
     time.sleep(3)
     print("\n")
