@@ -2,6 +2,7 @@ import urllib.request
 import sys
 import os
 import time
+import adressen
 
 
 def thenewsofjpthedev():
@@ -13,6 +14,7 @@ def thenewsofjpthedev():
     print("jederzeit und kostenlos abrufbar.")
     print("Wir freuen uns, wenn Sie unsere Programme gut finden.")
     print('Jede Woche gibt es aktuelle Nachrichten zum Thema "Computer & Internet"')
+    print("Falls Sie Programmier- oder Rechtschreibfehler entdeckt haben melden Sie diese hier: " + adressen.email)
     print("\n")
     print('Am 16.03.2020 finden Sie das Thema "Begriffserklärung für viele Begriffe (Computer, Programmieren)"')
     print("als Artikel vor. Wir wünschen Ihnen noch eine schöne Woche.")
